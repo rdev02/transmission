@@ -1,5 +1,8 @@
+# Original credit: https://github.com/dperson/transmission
+
 FROM debian:jessie
-MAINTAINER David Personette <dperson@dperson.com>
+
+MAINTAINER rdev02 <rdev02@outlook.com>
 
 # Install transmission
 RUN export DEBIAN_FRONTEND='noninteractive' && \
